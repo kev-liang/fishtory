@@ -26,7 +26,7 @@ class MongoDBConnection {
     //   .collection("posts");
     // const player = await postCollection.findOne({ _id: "6473bb1a284bef653f8ed19a" });
     // console.log("FOUND", player)
-    return [{size: 10}]
+      return [{ size: 10, numFishes: 2 }]
   }
 
   async getPosts(userId, post) {
